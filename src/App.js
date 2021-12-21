@@ -1,7 +1,9 @@
 import "./App.css";
+import weatherArray from "./weatherData.js";
 
 function App() {
-  return;
+  console.log(weatherArray);
+  return "hello";
 }
 
 export default App;

@@ -1,4 +1,4 @@
-export default [
+const weatherArray = [
   {
     img: "http://res.cloudinary.com/jkeohan/image/upload/v1535732381/day.svg",
     conditions: "Sunny",
@@ -25,3 +25,5 @@ export default [
     time: "Day",
   },
 ];
+
+export default weatherArray;
