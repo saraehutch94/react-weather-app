@@ -14,7 +14,11 @@ const newWeatherArray = weatherArray.map((object, index) => {
 });
 
 function App() {
-  return "hello";
+  return (
+    <div>
+      <section className="weather-app-sections">{newWeatherArray}</section>
+    </div>
+  );
 }
 
 export default App;
