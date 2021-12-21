@@ -13,3 +13,5 @@ function WeatherForecast(props) {
     </div>
   );
 }
+
+export default WeatherForecast;
