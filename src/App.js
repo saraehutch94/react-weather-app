@@ -2,6 +2,7 @@ import "./App.css";
 import weatherArray from "./weatherData.js";
 import WeatherForecast from "./components/WeatherForecast";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const weatherComponents = weatherArray.map((object, index) => {
   return (
@@ -19,6 +20,7 @@ function App() {
     <>
       <Header />
       <section className="weather-app-sections">{weatherComponents}</section>
+      <Footer />
     </>
   );
 }
