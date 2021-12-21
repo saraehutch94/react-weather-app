@@ -19,7 +19,9 @@ function App() {
   return (
     <>
       <Header />
-      <section className="weather-app-sections">{weatherComponents}</section>
+      <div className="flex-section">
+        <div className="weather-app-sections">{weatherComponents}</div>
+      </div>
       <Footer />
     </>
   );
