@@ -1,9 +1,0 @@
-.weather-app-sections {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.flex-section {
-  flex-grow: 1;
-}
