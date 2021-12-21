@@ -1,0 +1,9 @@
+.flex-section {
+  height: 100vh;
+}
+
+.weather-app-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
