@@ -3,6 +3,7 @@ import weatherArray from "./weatherData.js";
 import WeatherForecast from "./components/WeatherForecast";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 const weatherComponents = weatherArray.map((object, index) => {
   return (
@@ -19,9 +20,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex-section">
-        <div className="weather-app-sections">{weatherComponents}</div>
-      </div>
+      <Main weatherComponents={weatherComponents} />
       <Footer />
     </>
   );
