@@ -2,7 +2,7 @@ import "./App.css";
 import weatherArray from "./weatherData.js";
 import WeatherForecast from "./components/WeatherForecast";
 
-const newWeatherArray = weatherArray.map((object, index) => {
+const weatherComponents = weatherArray.map((object, index) => {
   return (
     <WeatherForecast
       key={index}
@@ -16,7 +16,7 @@ const newWeatherArray = weatherArray.map((object, index) => {
 function App() {
   return (
     <div>
-      <section className="weather-app-sections">{newWeatherArray}</section>
+      <section className="weather-app-sections">{weatherComponents}</section>
     </div>
   );
 }
