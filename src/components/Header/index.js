@@ -1,7 +1,9 @@
+import "./Header.css";
+
 function Header() {
   return (
     <header>
-      <h1>WeatherWay</h1>
+      <h1>weatherway</h1>
     </header>
   );
 }
