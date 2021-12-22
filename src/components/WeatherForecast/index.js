@@ -1,15 +1,17 @@
+import "./WeatherForecast.css";
+
 function WeatherForecast(props) {
   return (
     <div className="weather">
       <img src={props.img} />
-      <p>
-        <span>Conditions:</span>
+      <div>
+        <div>Conditions</div>
         {props.conditions}
-      </p>
-      <p>
-        <span>Time:</span>
+      </div>
+      <div>
+        <div>Time</div>
         {props.time}
-      </p>
+      </div>
     </div>
   );
 }
