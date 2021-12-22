@@ -4,5 +4,21 @@
   flex-direction: column;
   align-items: center;
   margin: 15px;
-  background-color: rgb(250, 169, 169);
+  background-color: rgb(250, 169, 169, 0.9);
+  padding: 25px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.weather-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weather-titles {
+  font-size: 20px;
 }
