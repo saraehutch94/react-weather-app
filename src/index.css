@@ -8,8 +8,6 @@ body {
   background-image: url("https://i.imgur.com/YvTyBkJ.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   font-family: "Rubik", sans-serif;
 }

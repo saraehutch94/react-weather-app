@@ -17,13 +17,11 @@ const weatherComponents = weatherArray.map((object, index) => {
 
 function App() {
   return (
-    <>
+    <div class="whole-app">
       <Header />
-      <div className="flex-section">
-        <div className="weather-app-sections">{weatherComponents}</div>
-      </div>
+      <div className="flex-section">{weatherComponents}</div>
       <Footer />
-    </>
+    </div>
   );
 }
 
